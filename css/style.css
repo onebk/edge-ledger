@@ -154,8 +154,8 @@ p {
   background-color: rgba(0,0,0,0.4);
 }
 
-/* Section: What We Do */
-#what .items {
+/* section: What We Do */
+ .items {
   display: flex;
   padding: 1rem;
 }
@@ -173,7 +173,7 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Section: Who We Are */
+/* section: Who We Are */
 #who {
   display: flex;
 }
@@ -187,6 +187,13 @@ p {
   center center/cover;
 }
 
-.client-items {
+/* Clients */
+#Clients .items {
   display: flex;
+}
+
+#Clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
 }

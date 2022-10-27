@@ -160,13 +160,13 @@ p {
   padding: 1rem;
 }
 
-#what .items .item {
+.items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
 }
 
-#what .items .item i {
+.items .item i {
   background: #93cb52;
   padding: 1rem;
   border-radius: 50%;
@@ -188,11 +188,11 @@ p {
 }
 
 /* Clients */
-#Clients .items {
+.client-items {
   display: flex;
 }
 
-#Clients .items img {
+.client-items img {
   display: block;
   margin: auto;
   width: 60%;

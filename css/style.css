@@ -53,6 +53,7 @@ p {
 
 .m-heading {
   font-size: 2rem;
+  margin-top: 5px;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
@@ -176,6 +177,7 @@ p {
 /* Section: Who We Are */
 #who {
   display: flex;
+  margin-bottom: 10px;
 }
 
 #who div {
@@ -187,6 +189,20 @@ p {
   center center/cover;
 }
 
+.who-text {
+  padding: 20px;
+}
+
 .client-items {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+
+.client-items img {
+  display: block;
+  width: 60%;
+  margin: auto;
 }

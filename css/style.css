@@ -54,6 +54,7 @@ p {
 .m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
+  margin-top: 1rem;
   line-height: 1.1;
 }
 
@@ -180,11 +181,16 @@ p {
 
 #who div {
   flex: 1;
+
 }
 
 #who .who-img {
   background: url('../img/people.jpg') no-repeat
   center center/cover;
+}
+
+.who-text {
+  padding: 20px;
 }
 
 /* Clients */
